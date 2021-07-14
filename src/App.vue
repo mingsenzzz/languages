@@ -1,13 +1,16 @@
+
 <template>
   <div id="app">
     {{ $t("message") }}
+    <Button type="primary">2222</Button>
   </div>
 </template>
 
 <script>
+import { Button } from "vant";
 export default {
   name: "App",
-  components: {},
+  components: { Button },
 };
 </script>
 
